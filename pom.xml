@@ -4,6 +4,7 @@
   <groupId>org.example</groupId>
   <artifactId>HybridSort</artifactId>
   <version>1.0-SNAPSHOT</version>
+
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -11,8 +12,8 @@
       <version>5.8.1</version>
       <scope>test</scope>
     </dependency>
-
   </dependencies>
+
   <name>Archetype - HybridSort</name>
   <url>http://maven.apache.org</url>
 </project>
