@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="239ffd25-3300-4bd8-b704-b67e6036bd5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/InsertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/InsertionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +56,31 @@
       <command value="mvn clean compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InsertionTest">
+  <component name="RunManager" selected="JUnit.HeapTest.twoDifferentArraysShouldEqual">
     <configuration name="All in HybridSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapTest.sortingSortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HybridSort" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HeapTest" />
+      <option name="METHOD_NAME" value="sortingSortedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapTest.twoDifferentArraysShouldEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HybridSort" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HeapTest" />
+      <option name="METHOD_NAME" value="twoDifferentArraysShouldEqual" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapTest.twoDifferentArraysShouldEqual" />
+        <item itemvalue="JUnit.HeapTest.sortingSortedArray" />
         <item itemvalue="JUnit.InsertionTest" />
         <item itemvalue="JUnit.All in HybridSort" />
       </list>
