@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="239ffd25-3300-4bd8-b704-b67e6036bd5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/makeHeapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/QuickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/QuickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/makeHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/makeHeapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <command value="mvn clean compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HeapTest.multipleRandomTests">
+  <component name="RunManager" selected="JUnit.InsertionTest">
     <configuration name="HeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,23 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="makeHeapTest.testFromSite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="makeHeapTest" />
-      <option name="METHOD_NAME" value="testFromSite" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="InsertionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HeapTest.multipleRandomTests" />
+        <item itemvalue="JUnit.InsertionTest" />
         <item itemvalue="JUnit.HeapTest" />
+        <item itemvalue="JUnit.HeapTest.multipleRandomTests" />
         <item itemvalue="JUnit.HeapTest.twoDifferentArraysShouldEqual" />
         <item itemvalue="JUnit.HeapTest.sortingSortedArray" />
-        <item itemvalue="JUnit.makeHeapTest.testFromSite" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +151,6 @@
           <url>file://$PROJECT_DIR$/tests/makeHeapTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tests/HeapTest.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/HeapTest.java</url>

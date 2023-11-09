@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Random;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -29,5 +32,25 @@ class InsertionTest {
 
         arrayToSort = Insertion.sort(arrayToSort);
         Assertions.assertEquals(sortedArray, arrayToSort);
+
+
+    }
+
+    @Test
+    void multipleRandomTests(){
+        for (int i = 0; i < 10000; i++) {
+            Random rand = new Random();
+            ArrayList<Integer> arrayToSort = new ArrayList<Integer>();
+            ArrayList<Integer> sortedArray = new ArrayList<Integer>();
+            for (int j = 0; j < 1000; j++) {
+                int id = rand.nextInt();
+                arrayToSort.add(i);
+                sortedArray.add(i);
+            }
+            Collections.sort(sortedArray);
+
+            Insertion.sort(arrayToSort);
+            Assertions.assertEquals(sortedArray, arrayToSort);
+        }
     }
 }
