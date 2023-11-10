@@ -33,15 +33,18 @@ public class Heap {
         return theGreatest;
     }
 
+    private static void insetFix(ArrayList<Integer> heap, int index, int parent){
+        if (heap.get(index) > heap.get(parent))
+            Collections.swap(heap, index, parent);
+    }
+
     public static void makeHeap(ArrayList<Integer> array){
         int parent;
         for (int i = 0; i < array.size(); i++){
-            for (int j = i; j >= 0; j = parent){
-                fix(array, j, array.size());
-                if(j % 2 != 0)
-                    parent = (j - 1)/2;
-                else
-                    parent = (j - 2)/2;
+            for (int j = i; j > 0; j = parent){
+                parent = (j-1)/2;
+                    if (array.get(j) > array.get(parent))
+                        Collections.swap(array, j, parent);
             }
         }
     }
