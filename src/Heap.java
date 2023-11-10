@@ -33,11 +33,6 @@ public class Heap {
         return theGreatest;
     }
 
-    private static void insetFix(ArrayList<Integer> heap, int index, int parent){
-        if (heap.get(index) > heap.get(parent))
-            Collections.swap(heap, index, parent);
-    }
-
     public static void makeHeap(ArrayList<Integer> array){
         int parent;
         for (int i = 0; i < array.size(); i++){
