@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="239ffd25-3300-4bd8-b704-b67e6036bd5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Radix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RadixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RadixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,31 +58,10 @@
       <command value="mvn clean compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuickTest">
-    <configuration name="HeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadixTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HybridSort" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeapTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapTest.sortingWithOnlyOneElementToSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HybridSort" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeapTest" />
-      <option name="METHOD_NAME" value="sortingWithOnlyOneElementToSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HybridSort" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InsertionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,10 +75,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickTest.twoDifferentArraysShouldEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuickTest" />
+      <option name="MAIN_CLASS_NAME" value="RadixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadixTest.multipleRandomTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HybridSort" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadixTest" />
+      <option name="METHOD_NAME" value="multipleRandomTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadixTest.twoDifferentArraysShouldEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HybridSort" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadixTest" />
       <option name="METHOD_NAME" value="twoDifferentArraysShouldEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -105,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadixTest" />
+        <item itemvalue="JUnit.RadixTest.twoDifferentArraysShouldEqual" />
+        <item itemvalue="JUnit.RadixTest.multipleRandomTests" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QuickTest" />
-        <item itemvalue="JUnit.QuickTest.twoDifferentArraysShouldEqual" />
-        <item itemvalue="JUnit.HeapTest" />
-        <item itemvalue="JUnit.HeapTest.sortingWithOnlyOneElementToSort" />
-        <item itemvalue="JUnit.InsertionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +135,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/RadixTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
