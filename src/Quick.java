@@ -21,7 +21,7 @@ public class Quick {
             Collections.swap(array, right, pivot);
 
             Quick.sort(array, pivot, right);
-            Quick.sort(array, right + 1, size);
+            Quick.sort(array, right + 1, size );
 
             return right;
         }
