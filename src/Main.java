@@ -23,14 +23,14 @@ public class Main {
 
             writer.write("Size InsertionSort QuickSort HeapSort RadixSort\n");
 
-            for (int size = 10; size < 100001; size += sizeMultiplier, System.out.println(size)) {
+            for (int size = 10; size < 10001; size += sizeMultiplier, System.out.println(size)) {
 
                 insertionTime = 0;
                 quickTime = 0;
                 heapTime = 0;
                 radixTime = 0;
 
-                for (int j = 0; j < 100; j++) {
+                for (int j = 0; j < 10000; j++) {
 
                     ArrayList<Integer> insertionArray = new ArrayList<Integer>();
                     ArrayList<Integer> heapArray = new ArrayList<Integer>();
@@ -67,14 +67,12 @@ public class Main {
 
                 }
 
-                writer.write(size + " " + (insertionTime / 100) + " " + (quickTime / 100) + " " + (heapTime / 100)
-                        + " " + (radixTime / 100) + "\n");
+                writer.write(size + " " + (insertionTime / 10000) + " " + (quickTime / 10000) + " " + (heapTime / 10000)
+                        + " " + (radixTime / 10000) + "\n");
 
                 if(size == 100)
                     sizeMultiplier *= 10;
                 else if(size == 1000)
-                    sizeMultiplier *= 10;
-                else if(size == 10000)
                     sizeMultiplier *= 10;
 
 

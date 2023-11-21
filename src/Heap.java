@@ -40,6 +40,8 @@ public class Heap {
                 parent = (j-1)/2;
                     if (array.get(j) > array.get(parent))
                         Collections.swap(array, j, parent);
+                    else
+                        break;
             }
         }
     }
@@ -47,7 +49,6 @@ public class Heap {
     public static ArrayList<Integer> sort(ArrayList<Integer> array){
         makeHeap(array);
         int elementToFix;
-        boolean heapFixed;
 
         for(int i = array.size(); i > 1;){
             Collections.swap(array,0, i - 1);

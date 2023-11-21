@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="239ffd25-3300-4bd8-b704-b67e6036bd5f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/allSorts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/allSorts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/quickAndRadix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/quickAndRadix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/withoutInsertion.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/withoutInsertion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +70,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuickTest" />
+      <option name="MAIN_CLASS_NAME" value="HeapTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.HeapTest" />
         <item itemvalue="JUnit.RadixTest" />
         <item itemvalue="JUnit.RadixTest.twoDifferentArraysShouldEqual" />
         <item itemvalue="JUnit.RadixTest.multipleRandomTests" />
-        <item itemvalue="JUnit.QuickTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,17 +139,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
