@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="239ffd25-3300-4bd8-b704-b67e6036bd5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Hybrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/HybridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graphs/allSorts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/allSorts.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graphs/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/quickAndRadix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/quickAndRadix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/withoutInsertion.png" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/withoutInsertion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/graph_painter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/graph_painter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/quickAndRadix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/withoutInsertion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting Algorithms Showdown.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/InsertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/InsertionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/QuickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/QuickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RadixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RadixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykola/IdeaProjects/Project1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykola/Desktop/mk/hybridSortThird/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -70,39 +78,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HybridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeapTest" />
+      <option name="MAIN_CLASS_NAME" value="HybridTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HybridTest.multipleRandomTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadixTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadixTest.multipleRandomTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HybridSort" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadixTest" />
+      <option name="MAIN_CLASS_NAME" value="HybridTest" />
       <option name="METHOD_NAME" value="multipleRandomTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixTest.twoDifferentArraysShouldEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionTest.multipleRandomTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HybridSort" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadixTest" />
-      <option name="METHOD_NAME" value="twoDifferentArraysShouldEqual" />
+      <option name="MAIN_CLASS_NAME" value="InsertionTest" />
+      <option name="METHOD_NAME" value="multipleRandomTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickTest.multipleRandomTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HybridSort" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuickTest" />
+      <option name="METHOD_NAME" value="multipleRandomTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,10 +120,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HeapTest" />
-        <item itemvalue="JUnit.RadixTest" />
-        <item itemvalue="JUnit.RadixTest.twoDifferentArraysShouldEqual" />
-        <item itemvalue="JUnit.RadixTest.multipleRandomTests" />
+        <item itemvalue="JUnit.HybridTest" />
+        <item itemvalue="JUnit.HybridTest.multipleRandomTests" />
+        <item itemvalue="JUnit.QuickTest.multipleRandomTests" />
+        <item itemvalue="JUnit.InsertionTest.multipleRandomTests" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +148,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/HybridTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -42,9 +42,9 @@ public class RadixTest {
             ArrayList<Integer> arrayToSort = new ArrayList<Integer>();
             ArrayList<Integer> sortedArray = new ArrayList<Integer>();
             for (int j = 0; j < 1000; j++) {
-                int id = rand.nextInt();
-                arrayToSort.add(i);
-                sortedArray.add(i);
+                int id = rand.nextInt(100000);
+                arrayToSort.add(id);
+                sortedArray.add(id);
             }
             Collections.sort(sortedArray);
 
